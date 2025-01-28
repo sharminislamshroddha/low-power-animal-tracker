@@ -218,9 +218,9 @@ char fileName[] = "logfile.csv";
 - **Purpose:** After waking up, these lines:
   - Store the current epoch time in wakeupTime to track when the system resumed operation.
   - Adjust the recorded time by subtracting the Y2K offset (EPOCH_OFFSET) to keep timestamps relative to the year 2000.
+<br>
 
-
-## detectReset() Function
+## Explanation of detectReset() Function
 - This function checks the reason why the system was reset and logs it to the SD card file.
 
 ```cpp  
@@ -265,8 +265,9 @@ char fileName[] = "logfile.csv";
 6. **PM_RCAUSE_POR**  
    - **Reason:** Power-On Reset (normal reset when powering up the device).
 
+<br>
 
-## lightLED() Function
+## Explanation of lightLED() Function
 - This function lights up the built-in LED to indicate a critical error (e.g., SD card failure) and halts the system.
 - Halts the system to prevent it from continuing with faulty or incomplete initialization.
 
@@ -278,7 +279,9 @@ char fileName[] = "logfile.csv";
    }
  }
 ```
-## getAccel() Function
+<br>
+
+## Explanation of getAccel() Function
 - The function reads data from the BMA250 accelerometer and stores the values of X, Y, Z accelerations(integer numbers) and temperature in an array pdata.
 - These values represent the force applied to the sensor along each axis, measured in relation to the gravitational force.
   
@@ -310,8 +313,9 @@ char fileName[] = "logfile.csv";
    - Values depend on sensor orientation and external forces. If the sensor is still, Z will be close to 1g because of gravity, and X, Y will be close to 0g.
    - **Temperature (°C):** The sensor's raw temperature value is scaled by multiplying it by 0.5 and offset by adding 24.0 to get the temperature in Celsius.
 
+<br>
 
-## getTimestamp() Function 
+## Explanation of getTimestamp() Function 
 - The getTimestamp function generates a precise timestamp for each data sample by combining the RTC (Real-Time Clock) data and an estimated millisecond component. Since the RTC only provides whole seconds, the function uses the accelerometer’s sampling rate to estimate milliseconds.
 ```cpp  
 String getTimestamp(int *pprevTime) {
@@ -355,7 +359,9 @@ String getTimestamp(int *pprevTime) {
 - **Format:** Combines these into a readable format: Day : Hour : Minute : Second.Millisecond.
 - **Purpose:** Provides precise timestamps for accelerometer data, essential for time-sensitive applications. Example format: 1 : 12 : 34 : 56.128 (Day 1, 12:34:56 and 128 ms).
 
-## writeData() Function
+<br>
+
+## Explanation of writeData() Function
 - The writeData function saves a timestamp and accelerometer data to a file on the SD card in CSV format.
 ```cpp  
  void writeData(String timeStamp, double pdata[]) {
@@ -373,6 +379,7 @@ String getTimestamp(int *pprevTime) {
 | 1 : 12 : 34 : 56.192 | -114  | 73   | 221  | 29.5             |
 | 1 : 12 : 34 : 56.256 | -115  | 73   | 221  | 29.5             |
 
+<br>
 
 ## Explanation of loop() Function 
 - After the setup() function (which runs only once at the start) finishes, the loop() function is executed repeatedly in an infinite cycle.
