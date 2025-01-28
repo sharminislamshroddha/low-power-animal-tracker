@@ -1,3 +1,5 @@
+// Movement-Based Data Logger for Low-Power Applications
+
 // Libraries
 #include <Wire.h>
 #include <BMA250.h>
