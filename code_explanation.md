@@ -1,3 +1,5 @@
+# Accelerometer Data Logging Code Explanation
+
 ## Libraries Used  
 
 ### 1. `#include <BMA250.h>`  
