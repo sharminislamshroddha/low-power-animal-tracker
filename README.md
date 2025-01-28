@@ -48,8 +48,9 @@ To replicate this project, the following components are required:
 
 The recorded data is stored in a CSV file with the following format:  
 
-| Timestamp | X     | Y     | Z     | Temperature (°C) |  
-|-----------|-------|-------|-------|------------------|  
-| 42332     | 0.01  | -0.02 | 0.98  | 25.5             |  
-| 32424     | 0.02  | -0.03 | 0.99  | 26.0             |  
+| TimeStamp          | X     | Y    | Z    | Temperature (°C) |
+|--------------------|-------|------|------|------------------|
+| 1 : 12 : 34 : 56.128 | -114  | 72   | 221  | 29.5             |
+| 1 : 12 : 34 : 56.192 | -114  | 73   | 221  | 29.5             |
+| 1 : 12 : 34 : 56.256 | -115  | 73   | 221  | 29.5             |
 
