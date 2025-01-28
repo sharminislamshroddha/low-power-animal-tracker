@@ -20,7 +20,7 @@ To replicate this project, the following components are required:
 - **UMC 8GB microSD card (1)**  
 - **3.7V battery (1)**  
 
-![Device Setup](images/device.png)
+![Device Setup](images/device.jpeg)
 
 ### Steps to Assemble:  
 1. Connect the Accelerometer TinyShield to the TinyZero board.  
