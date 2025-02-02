@@ -52,6 +52,7 @@ To replicate this project, the following components are required:
 ## Sample Data Output  
 
 The recorded data is stored in a CSV file with the following format:  
+**Timestamp Format:** `Day : Hour : Minute : Second.Milliseconds`
 
 | TimeStamp          | X     | Y    | Z    | Temperature (°C) |
 |--------------------|-------|------|------|------------------|
