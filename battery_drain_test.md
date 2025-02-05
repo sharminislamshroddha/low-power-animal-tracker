@@ -21,7 +21,7 @@ This document shows the battery status at different time intervals during the te
 - **Battery Percentage:** 84.26%  
 - **Remaining Capacity: 1685.14 mAh**
 
-![Battery at 10 Hours](images/battery_10h.jpg)  
+![Battery at 10 Hours](images/battery_10h.png)  
 
 ## Summary  
 During the test, a **continuous file-writing process** was running, writing data every **64 milliseconds**. The images above show how the battery voltage and charge decreased over time under these conditions.    
