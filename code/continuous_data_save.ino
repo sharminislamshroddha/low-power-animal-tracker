@@ -1,3 +1,10 @@
+/*
+   Continuous Data Save Test - Battery Drain Experiment
+   ---------------------------------------------------
+   This code continuously writes data to a file every 64 milliseconds 
+   to simulate high power consumption and accelerate battery drain.
+*/
+
 // Libraries
 #include <Wire.h>
 #include <BMA250.h>
