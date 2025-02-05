@@ -1,3 +1,13 @@
+/*
+   Accelerometer and Data Logger for Small Animal Research  
+   ------------------------------------------------------  
+   Original code from:  
+   https://www.hackster.io/brian-k2/accelerometer-and-data-logger-for-small-animal-research-c877c6  
+
+   Description:  
+   This code logs accelerometer data at regular intervals and saves it to a file. 
+*/
+
 //Libraries
 #include <Wire.h>
 #include <BMA250.h>
