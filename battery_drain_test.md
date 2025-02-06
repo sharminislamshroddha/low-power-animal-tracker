@@ -109,6 +109,13 @@ float getRemainingCapacity(float voltage, float totalCapacity) {
 
 ![Battery at 10 Hours](images/battery_10h.png)  
 
+## After 29 Hours  
+- **Battery Voltage:** 4.03 V  
+- **Battery Percentage:** 80.85%  
+- **Remaining Capacity: 1617.09 mAh**
+
+![Battery at 10 Hours](images/battery_29h.png)  
+
 ## Summary  
 During the test, a **continuous file-writing process** was running, writing data every **64 milliseconds**. The images above show how the battery voltage and charge decreased over time under these conditions.    
 
