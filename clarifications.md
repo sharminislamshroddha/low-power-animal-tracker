@@ -14,7 +14,7 @@
      - **If no motion is detected:** The device will return to sleep mode.  
    - The number of wake up cycles per day will depend on the turtle’s movement, not a fixed interval.
    - **Pros:** The device won’t follow a fixed interval. So it will **gather more data during movement periods**.
-   - **Cons:** Since the turtle’s movement is unpredictable, it’s hard to know how long the device will last on a single battery.
+   - **Cons:** Since the turtle’s movement is unpredictable, it’s hard to know **how long the device will last on a single battery**.
 
 
 ## Data collection or switch back from low power only when motion sensed
