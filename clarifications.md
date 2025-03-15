@@ -22,6 +22,6 @@
 - As a result, when the device enters sleep mode, the accelerometer **stops detecting motion**, preventing the device from waking up again.  
 
 
-## Low powerode or timed switch off/on in case of long time inactivity 
+## Low power mode or timed switch off/on in case of long time inactivity 
 - The solution is already mentioned in point 2 of the first question’s answer.
 
