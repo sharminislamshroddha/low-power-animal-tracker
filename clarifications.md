@@ -1,6 +1,6 @@
 # Clarifications  
 
-## Changes made, compared to Brian's guide.  
+## Changes made, compared to Brian's guide 
 
 **Code-Related Changes (2 Approaches)**  
 1. **No Motion, No Data Saving**  
