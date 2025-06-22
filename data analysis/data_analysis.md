@@ -1,4 +1,4 @@
-# Turtle Data Logger Analysis
+# Turtle Movement Data Analysis
 
 This report shows a simple analysis of turtle movement data. The data was collected using a small device attached to a turtle. We used Python and Google Colab to do the analysis.
 
