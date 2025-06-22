@@ -60,3 +60,10 @@ The recorded data is stored in a CSV file with the following format:
 | 1 : 12 : 34 : 56.192 | -114  | 73   | 221  | 29.5             |
 | 1 : 12 : 34 : 56.256 | -115  | 73   | 221  | 29.5             |
 
+## 👥 Contributors
+
+- **Sadita Ahmed**  
+  📧 Email: sadita.ahsets@iub.edu.bd
+  
+- **Sharmin Islam Shroddha**  
+  📧 Email: shroddha74@gmail.com
